@@ -18,4 +18,11 @@
     "types": ["@capacitor/core"]
   },
   "files": ["src/index.ts"]
+},
+"exports": {
+  ".": {
+    "types": "./dist/esm/index.d.ts",
+    "import": "./dist/esm/index.js",
+    "require": "./dist/plugin.cjs.js"
+  }
 }
