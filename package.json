@@ -6,7 +6,7 @@
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "unpkg": "dist/plugin.js",
-  "docgen": "docgen --api AudioSessionPlugin --output-readme README.md --output-json dist/docs.json --project ./tsconfig.json"
+  "docgen": "docgen --api AudioSessionPlugin --output-readme README.md --output-json dist/docs.json --project ./tsconfig.json",
   "files": [
     "android/src/main/",
     "android/build.gradle",
